@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوت ساسكي</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        .avatar-container img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        .name-big {
+            font-size: 60px;
+            font-weight: bold;
+            animation: colorChange 4s infinite;
+            margin-top: 30px;
+        }
+
+        @keyframes colorChange {
+            0% { color: red; }
+            25% { color: blue; }
+            50% { color: green; }
+            75% { color: yellow; }
+            100% { color: red; }
+        }
+
+        .button-link {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #444;
+            border: none;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .button-link:hover {
+            background-color: #666;
+        }
+
+        .info-text {
+            margin-top: 15px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="animate__animated animate__fadeInDown">بوت ساسكي</h2>
+
+    <div class="avatar-container animate__animated animate__fadeIn">
+        <img src="https://imgur.com/a/5Lc2uL4" alt="Sasuke Bot">
+    </div>
+
+    <div class="info-text animate__animated animate__fadeInUp">
+        المطور عبد العزيز
+    </div>
+
+    <a class="button-link animate__animated animate__fadeInUp" href="https://www.facebook.com/profile.php?id=100003182359095" target="_blank">
+        حساب المبرمج
+    </a>
+
+    <div class="name-big animate__animated animate__fadeInUp">
+        عـــزيــــــز
+    </div>
+</body>
+</html>
